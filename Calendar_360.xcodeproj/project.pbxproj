@@ -15,6 +15,7 @@
 		CBE22D081C1ED93800412D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE22D061C1ED93800412D03 /* LaunchScreen.storyboard */; };
 		CBE22D131C1ED93900412D03 /* Calendar_360Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE22D121C1ED93900412D03 /* Calendar_360Tests.m */; };
 		CBE22D1E1C1ED93900412D03 /* Calendar_360UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE22D1D1C1ED93900412D03 /* Calendar_360UITests.m */; };
+		CBE22D2E1C1EDD1700412D03 /* Empty.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBE22D2D1C1EDD1700412D03 /* Empty.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		CBE22D191C1ED93900412D03 /* Calendar_360UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Calendar_360UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE22D1D1C1ED93900412D03 /* Calendar_360UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calendar_360UITests.m; sourceTree = "<group>"; };
 		CBE22D1F1C1ED93900412D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE22D2D1C1EDD1700412D03 /* Empty.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Empty.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				CBE22CFC1C1ED93800412D03 /* AppDelegate.m */,
 				CBE22CFE1C1ED93800412D03 /* ViewController.h */,
 				CBE22CFF1C1ED93800412D03 /* ViewController.m */,
+				CBE22D2D1C1EDD1700412D03 /* Empty.xib */,
 				CBE22D011C1ED93800412D03 /* Main.storyboard */,
 				CBE22D041C1ED93800412D03 /* Assets.xcassets */,
 				CBE22D061C1ED93800412D03 /* LaunchScreen.storyboard */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBE22D081C1ED93800412D03 /* LaunchScreen.storyboard in Resources */,
+				CBE22D2E1C1EDD1700412D03 /* Empty.xib in Resources */,
 				CBE22D051C1ED93800412D03 /* Assets.xcassets in Resources */,
 				CBE22D031C1ED93800412D03 /* Main.storyboard in Resources */,
 			);
@@ -498,6 +502,7 @@
 				CBE22D241C1ED93900412D03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBE22D251C1ED93900412D03 /* Build configuration list for PBXNativeTarget "Calendar_360Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				CBE22D271C1ED93900412D03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBE22D281C1ED93900412D03 /* Build configuration list for PBXNativeTarget "Calendar_360UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +520,7 @@
 				CBE22D2A1C1ED93900412D03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

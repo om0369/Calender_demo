@@ -8,7 +8,24 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIScrollViewDelegate>{
+    
+    
+     IBOutlet UILabel *LabelMonthOnYearlyView;
+    IBOutlet UIView *CellMonthforYearlyView;
+    NSMutableArray *ArayDaysOnYearView;
+    CGFloat HeightCellMonthOnYear;
+    CGFloat WidthCellMonthOnYear;
+    
+    NSCalendar *calendar;
+    int currentMonth;
+    int currentYear;
+
+}
+
+@property (weak, nonatomic) IBOutlet UIScrollView *Scrolll;
+
+
 
 
 @end
